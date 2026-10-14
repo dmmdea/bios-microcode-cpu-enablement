@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or build on this work, please cite it as below."
+title: "BIOS microcode CPU enablement: a Boot Guard-safe same-size microcode swap for OEM PCs"
+abstract: >-
+  Documentation and offline tools for running a newer Intel CPU on an OEM motherboard whose final BIOS
+  lacks that CPU's microcode. The microcode is copied from the same vendor's BIOS for a sibling model into
+  a same-size slot, leaving the Firmware Interface Table byte-identical and every Boot Guard-hashed byte
+  unchanged. A verifier parses the Boot Policy Manifest from each image and refuses unsafe ones. Reference
+  build: Dell OptiPlex 7060 SFF, BIOS 1.32.0, i7-9700T (CPUID 906ED).
+type: software
+authors:
+  - alias: dmmdea
+repository-code: "https://github.com/dmmdea/bios-microcode-cpu-enablement"
+license: MIT
+keywords:
+  - CPU microcode
+  - BIOS modification
+  - Intel Boot Guard
+  - Firmware Interface Table
+  - OEM firmware
+  - hardware reuse
+  - e-waste reduction
