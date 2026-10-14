@@ -136,7 +136,7 @@ Guard-aware, same-size swap with a verifier that parses each image's own manifes
 
 ## License and trademarks
 
-Code: MIT, no warranty. Docs and images: CC BY 4.0 (see [LICENSE](LICENSE)). Modifying firmware is your decision and your risk. Intel, Boot Guard, Dell, OptiPlex,
+Code: MIT, no warranty. Docs and images: CC BY 4.0 (see [LICENSE-DOCS.md](LICENSE-DOCS.md)). Modifying firmware is your decision and your risk. Intel, Boot Guard, Dell, OptiPlex,
 HP and Lenovo are trademarks of their owners, used here only to describe hardware; this project is not
 affiliated with or endorsed by any of them. Report a board that worked or failed with the
 [hardware report template](.github/ISSUE_TEMPLATE/hardware-report.md).
